@@ -1,0 +1,1076 @@
+<File>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Started processing.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Source project - FullName(C:\Inetpub\wwwroot\DISSample\DISSample.vbproj)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Destination project - Name(DISSample_CS), Path(http://localhost/DISSample_CS/)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option AddSourceLineNumbers is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option IncludeSourceComments is set to True.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option KeepIntermediateFiles is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option SendStatistics is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option ThrowException is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option IncludeSourceBlankLines is set to True.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option AddExplicitCasts is set to True.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option GenerateOverloaded is set to True.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option AddNewlineBeforeCurly is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Option GeneratePropertyMethods is set to False.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:52 PM]]></DateTime>
+        <Message><![CDATA[Started creating new project.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Finished creating new project.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Started copying references.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (System).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (System.Data).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (System.Web).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (System.Web.Services).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:57 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (System.Xml).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (Interop.SBODI_Server).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyReferences]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (Microsoft.VisualBasic).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddReference]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully added reference (mscorlib).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddReference]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished copying references.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started copying project settings.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting ApplicationIcon ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting AssemblyName (DISSample)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting DefaultClientScript (0)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting DefaultHTMLPageLayout (1)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting DefaultNamespace (DISSample)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting DefaultTargetSchema (1)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting StartupObject ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied project setting OutputType (2)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) BaseAddress (285212672)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) ConfigurationOverrideFile ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) DebugSymbols (True)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) EnableASPDebugging (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) EnableASPXDebugging (True)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) EnableSQLServerDebugging (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) IncrementalBuild (True)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) Optimize (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) RemoteDebugEnabled (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) RemoteDebugMachine ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) RegisterForComInterop (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartAction (0)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartArguments ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartPage (Sample.asmx)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartProgram ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartURL ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartWithIE (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) StartWorkingDirectory ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Debug, .NET) TreatWarningsAsErrors (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) BaseAddress (285212672)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) ConfigurationOverrideFile ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) DebugSymbols (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) EnableASPDebugging (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) EnableASPXDebugging (True)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) EnableSQLServerDebugging (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) IncrementalBuild (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) Optimize (True)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) RemoteDebugEnabled (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) RemoteDebugMachine ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) RegisterForComInterop (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartAction (0)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartArguments ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartPage (Sample.asmx)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartProgram ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartURL ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartWithIE (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) StartWorkingDirectory ()]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Copied Configuration(Release, .NET) TreatWarningsAsErrors (False)]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProperty]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished copying project settings.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started copying project items.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to prepare all files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started fixing code behind setting (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished fixing code behind setting (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Global.asax.resx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started fixing code behind setting (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished fixing code behind setting (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.resx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started fixing config file (c:\inetpub\wwwroot\DISSample_CS\Web.config).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished fixing config file (c:\inetpub\wwwroot\DISSample_CS\Web.config).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Successfully prepared file (c:\inetpub\wwwroot\DISSample_CS\Web.config).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[PrepareAllFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished preparing all files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to translate all code files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to convert all VB files to XML.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed data.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed data.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed data.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb]]></File>
+        <Type><![CDATA[VBToXML]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.vb]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished converting all VB files to XML.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to analyze all XML files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to get output full path.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished getting output full path.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to create reference array.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished creating reference array.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Started to create global import array.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:43:59 PM]]></DateTime>
+        <Message><![CDATA[Finished creating global import array.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.xml]]></File>
+        <Type><![CDATA[XMLSymbolTable]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.xml]]></File>
+        <Type><![CDATA[XMLSymbolTable]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.xml]]></File>
+        <Type><![CDATA[XMLSymbolTable]]></Type>
+        <TypeMember><![CDATA[ProcessData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Finished analyzing all XML files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Started to convert XML files to C#.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:00 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Global.asax.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Read file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ReadData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Wrote file.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[WriteData]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Processed.]]></Message>
+        <File><![CDATA[c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.symbols.xml]]></File>
+        <Type><![CDATA[XMLVisitor]]></Type>
+        <TypeMember><![CDATA[ProcessFile]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Finished converting XML files to C#.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[TranslateAllCodeFiles]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Finished translating all code files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started deleting all original vb code files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Finished deleting all original vb code files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started to add all files to project.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\AssemblyInfo.cs).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started fixing directives in HTML (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[FixDirectivesInHTML]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Finished fixing directives in HTML (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[FixDirectivesInHTML]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Global.asax).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Global.asax.cs).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Global.asax.resx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Started fixing directives in HTML (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[FixDirectivesInHTML]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Finished fixing directives in HTML (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[FixDirectivesInHTML]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.cs).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:01 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Sample.asmx.resx).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Successfully added item to project (c:\inetpub\wwwroot\DISSample_CS\Web.config).]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[AddAllFilesToProject]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Finished adding all files to project.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[CopyProjectItems]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Finished copying project items.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Started deleting intermediate files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Finished deleting intermediate files.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Total files of all types converted = 8]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Total files with source code converted = 3]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Total lines of code converted = 321]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Total TRANSWARNINGS = 0]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Total TRANSERRORS = 0]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Finished processing.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+    <LogEntry Level="Information" >
+        <DateTime><![CDATA[11/10/2005 1:44:02 PM]]></DateTime>
+        <Message><![CDATA[Finished processing.]]></Message>
+        <Type><![CDATA[VBToCSTranslator]]></Type>
+        <TypeMember><![CDATA[Process]]></TypeMember>
+    </LogEntry>
+</File>

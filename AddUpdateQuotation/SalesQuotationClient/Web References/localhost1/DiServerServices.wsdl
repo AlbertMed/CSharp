@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/wsSalesQuotation/Service1" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/wsSalesQuotation/Service1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/wsSalesQuotation/Service1">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseServer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseUserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBasePassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyUserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LicenseServer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Port" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogOutResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyQuotationXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyQuotationXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmptyQuotationXmlResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddQuotation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sXmlQuotationObject" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddQuotationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddQuotationResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateQuotation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sXmlQuotationObject" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateQuotationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateQuotationResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogOutSoapIn">
+    <wsdl:part name="parameters" element="tns:LogOut" />
+  </wsdl:message>
+  <wsdl:message name="LogOutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyQuotationXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmptyQuotationXml" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyQuotationXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmptyQuotationXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddQuotationSoapIn">
+    <wsdl:part name="parameters" element="tns:AddQuotation" />
+  </wsdl:message>
+  <wsdl:message name="AddQuotationSoapOut">
+    <wsdl:part name="parameters" element="tns:AddQuotationResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateQuotationSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateQuotation" />
+  </wsdl:message>
+  <wsdl:message name="UpdateQuotationSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateQuotationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DiServerServicesSampleSoap">
+    <wsdl:operation name="Login">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Login to company</documentation>
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">LogOut to company</documentation>
+      <wsdl:input message="tns:LogOutSoapIn" />
+      <wsdl:output message="tns:LogOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyQuotationXml">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Get an XML document of an empty Quotation object</documentation>
+      <wsdl:input message="tns:GetEmptyQuotationXmlSoapIn" />
+      <wsdl:output message="tns:GetEmptyQuotationXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddQuotation">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Sales Quotation</documentation>
+      <wsdl:input message="tns:AddQuotationSoapIn" />
+      <wsdl:output message="tns:AddQuotationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateQuotation">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Update Quotation object</documentation>
+      <wsdl:input message="tns:UpdateQuotationSoapIn" />
+      <wsdl:output message="tns:UpdateQuotationSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DiServerServicesSampleSoap" type="tns:DiServerServicesSampleSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/wsSalesQuotation/Service1/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <soap:operation soapAction="http://tempuri.org/wsSalesQuotation/Service1/LogOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyQuotationXml">
+      <soap:operation soapAction="http://tempuri.org/wsSalesQuotation/Service1/GetEmptyQuotationXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddQuotation">
+      <soap:operation soapAction="http://tempuri.org/wsSalesQuotation/Service1/AddQuotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateQuotation">
+      <soap:operation soapAction="http://tempuri.org/wsSalesQuotation/Service1/UpdateQuotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DiServerServicesSample">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="DiServerServicesSampleSoap" binding="tns:DiServerServicesSampleSoap">
+      <soap:address location="http://localhost/wsSalesQuotation/DiServerServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

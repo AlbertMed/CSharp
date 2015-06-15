@@ -1,0 +1,11 @@
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample_CS.csproj.ResolveComReference.cache
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample.Global.resources
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample.Sample.resources
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample_CS.csproj.GenerateResource.Cache
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.dll.config
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.dll
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.pdb
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\Interop.SBODI_Server.dll
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample.dll
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample.pdb
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Debug\DISSample_CS.csprojResolveAssemblyReference.cache

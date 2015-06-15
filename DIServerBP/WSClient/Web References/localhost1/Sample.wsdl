@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/DISSample/Sample" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/DISSample/Sample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/DISSample/Sample">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseServer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBaseUserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataBasePassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyUserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LicenseServer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBPList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBPListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBPListResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddBP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlBPObject" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddBPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddBPResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyBPXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyBPXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmptyBPXmlResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBPListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBPList" />
+  </wsdl:message>
+  <wsdl:message name="GetBPListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBPListResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddBPSoapIn">
+    <wsdl:part name="parameters" element="tns:AddBP" />
+  </wsdl:message>
+  <wsdl:message name="AddBPSoapOut">
+    <wsdl:part name="parameters" element="tns:AddBPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyBPXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmptyBPXml" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyBPXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmptyBPXmlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SampleSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBPList">
+      <wsdl:input message="tns:GetBPListSoapIn" />
+      <wsdl:output message="tns:GetBPListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBP">
+      <wsdl:input message="tns:AddBPSoapIn" />
+      <wsdl:output message="tns:AddBPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyBPXml">
+      <wsdl:input message="tns:GetEmptyBPXmlSoapIn" />
+      <wsdl:output message="tns:GetEmptyBPXmlSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SampleSoap" type="tns:SampleSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/DISSample/Sample/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBPList">
+      <soap:operation soapAction="http://tempuri.org/DISSample/Sample/GetBPList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBP">
+      <soap:operation soapAction="http://tempuri.org/DISSample/Sample/AddBP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyBPXml">
+      <soap:operation soapAction="http://tempuri.org/DISSample/Sample/GetEmptyBPXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Sample">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="SampleSoap" binding="tns:SampleSoap">
+      <soap:address location="http://localhost/DISSample/Sample.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
