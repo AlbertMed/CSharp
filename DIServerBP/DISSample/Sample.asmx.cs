@@ -97,7 +97,61 @@ namespace DISSample {
 			return sRet; 
 		}
 
-        
+
+
+        [WebMethod()]
+        public string OrderService(string SID) { 
+
+            SBODI_Server.Node DISnode = null;
+            string sSOAPans = null, sCmd = null;
+            DISnode = new SBODI_Server.Node();
+            System.Xml.XmlDocument dxml = null;
+
+            sCmd = @"<?xml version=""1.0"" encoding=""UTF-16""?>";
+            sCmd += @"<env:Envelope xmlns:env=""http://www.w3.org/2003/05/soap-envelope"">";
+            sCmd +="<env:Header>";
+            sCmd +="<SessionID>"+ SID +"</SessionID>";
+            sCmd += "</env:Header>";
+            sCmd += "<env:Body>";
+            sCmd += @"<dis:Add xmlns:dis=""http://www.sap.com/SBO/DIS"">";
+            sCmd += "<Service>ProductionOrdersService</Service>";
+            sCmd += "<ProductionOrder>";
+            sCmd += "<Series>1047</Series>";
+            sCmd += "<ItemNo>ProdFather</ItemNo>";
+            sCmd += "<ProductionOrderStatus>boposPlanned</ProductionOrderStatus>";
+            sCmd += "<ProductionOrderType>bopotDisassembly</ProductionOrderType>";
+            sCmd += "<PlannedQuantity>2</PlannedQuantity>";
+            sCmd += "<PostingDate>2015-06-16</PostingDate>";
+            sCmd += "<DueDate>2015-06-16</DueDate>";
+            sCmd += "<ProductionOrderOriginEntry>1</ProductionOrderOriginEntry>";
+            sCmd += "<ProductionOrderOrigin>bopooManual</ProductionOrderOrigin>";
+            sCmd += "<Remarks>remarks</Remarks>";
+            sCmd += "<CustomerCode>ProdOrderBp</CustomerCode>";
+            sCmd += "<Warehouse>02</Warehouse>";
+            sCmd += "<JournalRemarks>Created by PO</JournalRemarks>";
+            sCmd += "<ProductionOrderLines>";
+            sCmd += "<ProductionOrderLine>";
+            sCmd += "<ItemNo>ProdSon1</ItemNo>";
+            sCmd += "<BaseQuantity>1</BaseQuantity>";
+            sCmd += "<ProductionOrderIssueType>im_Manual</ProductionOrderIssueType>";
+            sCmd += " <Warehouse>02</Warehouse>";
+            sCmd += " </ProductionOrderLine>";
+            sCmd += "</ProductionOrderLines>";
+            sCmd += "</ProductionOrder>";
+            sCmd += "</dis:Add>";
+            sCmd += "</env:Body>";
+            sCmd += "</env:Envelope>";
+            sSOAPans = DISnode.Interact(sCmd);
+           dxml = new System.Xml.XmlDocument();
+
+           dxml.LoadXml(sSOAPans);
+
+           String lista = null;
+           String ss = AsString(RemoveEnv(dxml));
+           lista = ss.Replace((char)34, (char)39);
+           return lista;
+
+        }
 
         [WebMethod()]
         public string GetDetalle(string SID, string producto) { 
