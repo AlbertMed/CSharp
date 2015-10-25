@@ -311,7 +311,7 @@ namespace DISSample {
             
             foreach (XmlNode node in idNodes)
             {
-                producto Item = new producto();
+                MyProducto Item = new MyProducto();
                 Item.Id = node.InnerText;
                 XmlNode cant = cantNodes.Item(list.Count);
                 Item.Cantidad = cant.InnerText;
@@ -801,7 +801,7 @@ namespace DISSample {
             return sRet;
         }
 
-        [ WebMethod() ]
+       // [ WebMethod() ]
         public String addBP(String SessionID,String cardCode, String nombre,String telefono,String email_cli,String nombreRazon, String RFC,String calle, String colonia,String ciudad,String municipio,String estado,String cp,String numero, String en_calle,String en_colonia, String en_ciudad,String en_municipio,String en_estado,String en_cp,String en_numero){
             SBODI_Server.Node DISnode = null;
             string sSOAPans = null, sCmd = null;
@@ -879,6 +879,96 @@ namespace DISSample {
         }
 
         [WebMethod()]
+        //public String updateLeadtoCustomer(string id, string rfc, )
+            public String updateLeadtoCustomer(string id, string cardCodeLead)  
+        {
+            
+            SBODI_Server.Node DISnode = null;
+            string sSOAPans = null, sCmd = null;
+            DISnode = new SBODI_Server.Node();
+
+            String cardcodeCustomer = getfinalCustomer(id);
+            //String RFC = contains_rfc(id, cardCodeLead);           
+            //if ((RFC.Length == 12) || (RFC.Length == 13))
+            //{
+            //    cardcodeCustomer = RFC;
+            //}
+                                 
+            sCmd = @"<?xml version=""1.0"" encoding=""UTF-16""?>";
+            sCmd += @"<env:Envelope xmlns:env=""http://schemas.xmlsoap.org/soap/envelope/"">";
+            sCmd += "<env:Header><SessionID>" + id + "</SessionID></env:Header><env:Body>";// ID de Sesion
+
+            sCmd += @"<dis:UpdateObject xmlns:dis=""http://www.sap.com/SBO/DIS"">";
+            sCmd += "<BOM><BO><AdmInfo><Object>oBusinessPartners</Object></AdmInfo>";
+           
+            sCmd += "<QueryParams>";
+            sCmd += "<CardCode>" + cardCodeLead + "</CardCode>";//como id de usario
+            sCmd += "</QueryParams>";
+            sCmd += "<BusinessPartners>";
+            sCmd += "<row>";//datos de 
+            sCmd += "<CardCode>" + cardcodeCustomer + "</CardCode>";//identificador de Customer (C00XXX)
+            sCmd += "<CardName>" + "NombreEmpresa" + "</CardName>"; //nombre de la empresa
+            sCmd += "<CardType>cCustomer</CardType>";  //tipo de usuario 
+            sCmd += "<GroupCode>105</GroupCode>"; //Grupo de usuario comercializadora/Aceros, etc..
+            sCmd += "<ContactPerson>" + "ALBERT" + "</ContactPerson>";//nombre de contacto
+            //sCmd += "<Phone1 nil='true'>" + telefono + "</Phone1>";//telefono de contacto            
+            //sCmd += "<EmailAddress>" + email_cli + "</EmailAddress>"; //Direccion de correo electromico
+            sCmd += "<FederalTaxID>" + 1234567890123 + "</FederalTaxID>";
+            sCmd += "</row>";
+            sCmd += "</BusinessPartners>";
+            sCmd += "<ContactEmployees>";
+            sCmd += "<row>";
+            sCmd += "<CardCode>" + cardcodeCustomer + "</CardCode>";
+            //sCmd += "<Name>" + "Nombre Empresa" + "</Name>";
+            //sCmd += "<Position>manager</Position>";
+            sCmd += "<Phone1>" + "7771045580" + "</Phone1>";
+            sCmd += "<E_Mail>" + "t@t.t" + "</E_Mail>";
+            //sCmd += "<InternalCode>613</InternalCode>";
+            //sCmd += "<FirstName>" + nombre + "</FirstName>";//nombre de contaco
+            //sCmd += "<MiddleName nil='true'></MiddleName>";
+            //sCmd += "<LastName>robles</LastName>";//apellido de contacto
+            sCmd += "</row>";
+            sCmd += "</ContactEmployees>";
+            sCmd += "</BO></BOM>";
+            sCmd += "</dis:UpdateObject>";
+            sCmd += "</env:Body></env:Envelope>";
+
+
+            //validacion del XML-,
+            sSOAPans = DISnode.Interact(sCmd);
+            System.Xml.XmlValidatingReader xmlValid = null;
+            string sRet = null;
+            xmlValid = new System.Xml.XmlValidatingReader(sSOAPans, System.Xml.XmlNodeType.Document, null);
+            while (xmlValid.Read())
+            {
+                if (xmlValid.NodeType == System.Xml.XmlNodeType.Text)
+                {
+                    if (sRet == null)
+                    {
+                        sRet += xmlValid.Value;
+                    }
+                    else
+                    {
+                        if (sRet.StartsWith("Error"))
+                        {
+                            sRet += " " + xmlValid.Value;
+                        }
+                        else
+                        {
+                            //sRet = "Error " + sRet + " " + xmlValid.Value;
+                        }
+                    }
+                }
+            }
+            if (Strings.InStr(sSOAPans, "<env:Fault>", Microsoft.VisualBasic.CompareMethod.Text) != 0)
+            {
+                sRet = "Error: " + sRet;
+            }
+
+            return sRet;
+        }
+
+        [WebMethod()]
         public String getByKey(string SessionID) { 
             SBODI_Server.Node n = null;
             string s = null, strXML = null;
@@ -931,7 +1021,59 @@ namespace DISSample {
             final++;
             return "C00" + final;
         }
+        [WebMethod()]
+        public String contains_rfc(string id, string rfc)
+        {
+            SBODI_Server.Node DISnode = null;
+            string sSOAPans = null, sCmd = null;
+            DISnode = new SBODI_Server.Node();
+            sCmd = @"<?xml version=""1.0"" encoding=""UTF-16""?>";
+            sCmd += @"<env:Envelope xmlns:env=""http://schemas.xmlsoap.org/soap/envelope/"">";
+            sCmd += "<env:Header>";
+            sCmd += "<SessionID>" + id + "</SessionID>";
+            sCmd += "</env:Header>";
+            sCmd += "<env:Body>";
+            sCmd += @"<dis:ExecuteSQL xmlns:dis=""http://www.sap.com/SBO/DIS"">";
+            sCmd += "<DoQuery>select LicTradNum from OCRD where LicTradNum = " + rfc + "</DoQuery>";
+            sCmd += "</dis:ExecuteSQL>";
+            sCmd += "</env:Body>";
+            sCmd += "</env:Envelope>";
 
+            //validacion del XML-,
+            sSOAPans = DISnode.Interact(sCmd);
+            System.Xml.XmlValidatingReader xmlValid = null;
+            string sRet = null;
+            xmlValid = new System.Xml.XmlValidatingReader(sSOAPans, System.Xml.XmlNodeType.Document, null);
+            while (xmlValid.Read())
+            {
+                if (xmlValid.NodeType == System.Xml.XmlNodeType.Text)
+                {
+                    if (sRet == null)
+                    {
+                        sRet += xmlValid.Value;
+                    }
+                    else
+                    {
+                        if (sRet.StartsWith("Error"))
+                        {
+                            sRet += " " + xmlValid.Value;
+                        }
+                        else
+                        {
+                            sRet = xmlValid.Value;
+                        }
+                    }
+                }
+            }
+            if (Strings.InStr(sSOAPans, "<env:Fault>", Microsoft.VisualBasic.CompareMethod.Text) != 0)
+            {
+                sRet = "Error: " + sRet;
+            }
+
+           
+                return sRet;
+            
+        }
 
         /**
          * funcion que nos trae el ultimo Customer registrado

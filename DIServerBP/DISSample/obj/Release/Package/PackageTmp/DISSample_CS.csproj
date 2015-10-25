@@ -80,6 +80,10 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Interop.SBODI_Server">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\SAP\SAP Business One Web Services\WsdlServicesGenerator\Interop.SBODI_Server.DLL</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic">
       <Name>Microsoft.VisualBasic</Name>
@@ -137,15 +141,6 @@
   <ItemGroup>
     <COMReference Include="SAPbobsCOM">
       <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30088}</Guid>
-      <VersionMajor>8</VersionMajor>
-      <VersionMinor>8</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="SBODI_Server">
-      <Guid>{D68328C8-4EDA-4427-8E76-5CE3ED1063C0}</Guid>
       <VersionMajor>8</VersionMajor>
       <VersionMinor>8</VersionMinor>
       <Lcid>0</Lcid>

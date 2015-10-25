@@ -19,7 +19,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/31/2014 04:03:20</publishTime>
     </File>
     <File Include="bin/DISSample.dll">
-      <publishTime>08/28/2015 12:21:02</publishTime>
+      <publishTime>10/21/2015 00:25:43</publishTime>
     </File>
     <File Include="CarritoWS.pubxml">
       <publishTime>07/07/2015 16:03:25</publishTime>
@@ -34,10 +34,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>08/28/2015 12:20:46</publishTime>
     </File>
     <File Include="DISSample_CS.csproj">
-      <publishTime>08/26/2015 23:27:44</publishTime>
+      <publishTime>10/12/2015 16:26:02</publishTime>
     </File>
     <File Include="DISSample_CS.csproj.user">
-      <publishTime>08/26/2015 23:27:44</publishTime>
+      <publishTime>10/12/2015 16:26:02</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>06/26/2012 19:06:02</publishTime>
@@ -55,7 +55,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/26/2012 19:06:02</publishTime>
     </File>
     <File Include="Sample.asmx.cs">
-      <publishTime>08/28/2015 11:56:16</publishTime>
+      <publishTime>10/12/2015 16:27:42</publishTime>
     </File>
     <File Include="Sample.asmx.resx">
       <publishTime>06/26/2012 19:06:02</publishTime>

@@ -1,9 +1,6 @@
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.dll.config
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.dll
-C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\Interop.SBODI_Server.dll
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISSample_CS.csproj.ResolveComReference.cache
-C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISSample.Global.resources
-C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISSample.Sample.resources
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISSample_CS.csproj.GenerateResource.Cache
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISSample.dll
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\Interop.SAPbobsCOM.dll
@@ -12,3 +9,5 @@ C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\CrystalDecisions.Cryst
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\CrystalDecisions.ReportSource.dll
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\CrystalDecisions.Shared.dll
 C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\bin\DISSample.tlb
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISCeseh.Global.resources
+C:\Users\Ventas\Downloads\CSharp\DIServerBP\DISSample\obj\Release\DISCeseh.Init.resources

@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ApplicationIcon />
     <AssemblyKeyContainerName />
-    <AssemblyName>DISSample</AssemblyName>
+    <AssemblyName>DISCeseh</AssemblyName>
     <AssemblyOriginatorKeyFile />
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
@@ -80,6 +80,10 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Interop.SBODI_Server">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\SAP\SAP Business One Web Services\WsdlServicesGenerator\Interop.SBODI_Server.DLL</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic">
       <Name>Microsoft.VisualBasic</Name>
@@ -105,23 +109,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyProducto.cs" />
     <Compile Include="cotizacion.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>cotizacion.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="producto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Sample.asmx.cs">
-      <DependentUpon>Sample.asmx</DependentUpon>
+    <Compile Include="DISCeseh.asmx.cs">
+      <DependentUpon>DISCeseh.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Content Include="Global.asax" />
-    <Content Include="Sample.asmx" />
+    <Content Include="DISCeseh.asmx" />
     <Content Include="Web.config" />
     <EmbeddedResource Include="cotizacion.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -130,22 +134,13 @@
     <EmbeddedResource Include="Global.asax.resx">
       <DependentUpon>Global.asax.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sample.asmx.resx">
-      <DependentUpon>Sample.asmx.cs</DependentUpon>
+    <EmbeddedResource Include="DISCeseh.asmx.resx">
+      <DependentUpon>DISCeseh.asmx.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="SAPbobsCOM">
       <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30088}</Guid>
-      <VersionMajor>8</VersionMajor>
-      <VersionMinor>8</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="SBODI_Server">
-      <Guid>{D68328C8-4EDA-4427-8E76-5CE3ED1063C0}</Guid>
       <VersionMajor>8</VersionMajor>
       <VersionMinor>8</VersionMinor>
       <Lcid>0</Lcid>
